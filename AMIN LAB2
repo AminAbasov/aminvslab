@@ -1,0 +1,9 @@
+[0;1) intervalında dəyişən n sayda təsadüfi həqiqi ədəddən ibarət massivinin(siyahının) elementlərinin cəmini hesablayan alqoritm tərtib etməliş
+
+import random
+n=int(input("n="))
+a=[0]*n
+for i in range(0,n):
+        a[i]=random.uniform(0,2)
+        cem=sum(a)
+print(cem)

@@ -1,7 +1,0 @@
-import random
-n=int(input("n="))
-a=[0]*n
-for i in range(0,n):
-        a[i]=random.uniform(0,2)
-        cem=sum(a)
-print(cem)
