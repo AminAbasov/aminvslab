@@ -1,0 +1,13 @@
+def cem_hesabla(A):
+    cem = 0
+    for i in range(len(A)):
+        for j in range(len(A[i])):
+            cem += A[i][j]
+    return cem
+
+A = [
+    [1, 4, 3],
+    [4, 5, 6],
+]
+
+print("Massivin bütün elementlərinin cəmi:", cem_hesabla(A))
